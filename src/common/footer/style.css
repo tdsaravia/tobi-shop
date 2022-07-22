@@ -1,0 +1,36 @@
+footer {
+  background-color: #ff8e32;
+  padding: 100px 0;
+  color: #fff;
+}
+footer h1 {
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-weight: 800;
+}
+footer .img {
+  background-color: #c71515;
+  padding: 15px 25px;
+  border-radius: 5px;
+
+}
+footer .img i {
+  font-size: 20px;
+  margin: 5px;
+}
+footer .img span {
+  margin-top: 5px;
+}
+footer p {
+  font-size: 14px;
+  font-weight: 300;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+footer h2 {
+  margin-bottom: 20px;
+}
+footer li {
+  margin-bottom: 10px;
+  opacity: 0.5;
+}
