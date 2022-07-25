@@ -48,6 +48,7 @@
   font-size: 25px;
   text-align: right;
   margin-right: 10px;
+  cursor: pointer;
 }
 .cartControl {
   margin-top: 50px;
@@ -63,9 +64,13 @@
   background: none;
   border: 1px solid rgb(3 0 71 / 9%);
   color: #e94560;
+  cursor: pointer;
+
 }
 .desCart {
   background: #f6f9fc;
+  cursor: pointer;
+
 }
 .cart-total h4 {
   font-size: 15px;

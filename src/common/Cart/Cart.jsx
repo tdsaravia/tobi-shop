@@ -33,7 +33,7 @@ const Cart = ({ CartItem, addToCart, decreaseQty }) => {
                   </div>
                   <div className='cart-items-function'>
                     <div className='removeCart'>
-                      <button className='removeCart'>
+                      <button className='removeCart' onClick={() => decreaseQty(item)}>
                         <i className='fa-solid fa-xmark'></i>
                       </button>
                     </div>

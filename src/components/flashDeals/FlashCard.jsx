@@ -50,7 +50,7 @@ const FlashCard = ({ productItems, addToCart }) => {
                   <img src={productItems.cover} alt='' />
                   <div className='product-like'>
                     <label>{count}</label> <br />
-                    <i className='fa-regular fa-heart' onClick={increment}></i>
+                    <i className='fa-regular fa-heart' onClick={increment} style={{cursor:'pointer'}}></i>
                   </div>
                 </div>
                 <div className='product-details'>
@@ -64,9 +64,6 @@ const FlashCard = ({ productItems, addToCart }) => {
                   </div>
                   <div className='price'>
                     <h4>${productItems.price}.00 </h4>
-                    {/* step : 3  
-                     if hami le button ma click garryo bahne 
-                    */}
                     <button onClick={() => addToCart(productItems)}>
                       <i className='fa fa-plus'></i>
                     </button>

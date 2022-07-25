@@ -106,6 +106,18 @@ button {
   font-weight: bold;
   color: #fff;
   border-radius: 5px;
+  cursor:pointer;
+}
+
+.btn-primary:hover {
+  background: #ffffff;
+  padding: 13px 40px;
+  font-weight: bold;
+  border: 1px solid #d41515;
+  color: #d41515;
+  border-radius: 5px;
+  cursor:pointer;
+  transition: 0.s ease-in;
 }
 .top {
   margin-top: 80px;
@@ -232,7 +244,7 @@ button {
 .heading .heading-right i,
 .heading .heading-right {
   text-align: right;
-  color: grey;
+  color: #d41515;
 }
 
 

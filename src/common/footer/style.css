@@ -12,6 +12,7 @@ footer .img {
   background-color: #c71515;
   padding: 15px 25px;
   border-radius: 5px;
+  cursor: pointer;
 
 }
 footer .img i {
@@ -27,10 +28,20 @@ footer p {
   opacity: 0.5;
   margin-bottom: 20px;
 }
+
+
 footer h2 {
   margin-bottom: 20px;
 }
 footer li {
   margin-bottom: 10px;
   opacity: 0.5;
+  cursor:pointer;
+}
+footer li:hover {
+  opacity: 1;
+
+}
+footer .box {
+  padding: 0 30px;
 }
